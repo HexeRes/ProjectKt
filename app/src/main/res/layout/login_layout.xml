@@ -3,27 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000900">
 
     <EditText
         android:id="@+id/edLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="112dp"
+        android:layout_width="228dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="88dp"
         android:layout_marginBottom="24dp"
+        android:background="#FAFAFA"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/edPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+        app:layout_constraintVertical_bias="0.992" />
 
     <EditText
         android:id="@+id/edPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="380dp"
+        android:layout_width="227dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="364dp"
+        android:background="#FAF7F7"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,25 +34,45 @@
 
     <Button
         android:id="@+id/SignUp"
-        android:layout_width="218dp"
-        android:layout_height="43dp"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="232dp"
+        android:layout_width="231dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="208dp"
         android:onClick="onClickSignUp"
         android:text="Зарегистрироваться"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignIn" />
 
     <Button
         android:id="@+id/SignIn"
-        android:layout_width="209dp"
-        android:layout_height="46dp"
-        android:layout_marginEnd="108dp"
+        android:layout_width="228dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="88dp"
         android:layout_marginBottom="24dp"
+        android:background="#0B0A09"
+        android:foregroundTint="#F8F6F6"
         android:onClick="onClickSignIn"
+        android:shadowColor="#FAFAFA"
         android:text="Войти"
+        android:textColor="#FDFDFD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.595"
+        app:rippleColor="#FFFEFE"
+        app:strokeColor="#FDFAFA"
+        tools:background="#4CAF50" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="157dp"
+        android:layout_height="176dp"
+        app:layout_constraintBottom_toTopOf="@+id/edLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        app:srcCompat="@drawable/_1_617798_health_fitness_icon_healthy_food_icon_png_transparent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

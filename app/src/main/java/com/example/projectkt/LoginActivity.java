@@ -33,10 +33,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onStart();
         FirebaseUser cUser = mAuth.getCurrentUser();
         if (cUser != null) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
             Toast.makeText(this, "пользователь существует", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(this, "пользователь не существует", Toast.LENGTH_SHORT).show();
         }
+
     }
 
     private void Init() {

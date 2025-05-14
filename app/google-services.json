@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "759543284144",
-    "project_id": "projectkt-5b903",
-    "storage_bucket": "projectkt-5b903.firebasestorage.app"
+    "project_number": "708337643974",
+    "project_id": "projectkt-edda8",
+    "storage_bucket": "https://projectkt-edda8-default-rtdb.europe-west1.firebasedatabase.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:759543284144:android:1758a548b2484e3a8b9675",
+        "mobilesdk_app_id": "1:708337643974:android:656145704d58de8a8842c7",
         "android_client_info": {
           "package_name": "com.example.projectkt"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCU90aYQL81rqMOy8DDxmmStSzIMnoV-mc"
+          "current_key": "AIzaSyAuHFvbRnkKelnQXDePHRp-mk4uFzxfOaM"
         }
       ],
       "services": {

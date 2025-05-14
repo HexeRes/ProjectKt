@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.projectkt.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.example.projectkt.ui.home.InputFragment"
+        android:label="@string/title_Ввод"
+        tools:layout="@layout/fragment_input" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.projectkt.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:name="com.example.projectkt.ui.dashboard.StatsFragment"
+        android:label="@string/title_Статистика"
+        tools:layout="@layout/fragment_stats" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.projectkt.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:name="com.example.projectkt.ui.notifications.SettingsFragment"
+        android:label="@string/title_Настройки"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
